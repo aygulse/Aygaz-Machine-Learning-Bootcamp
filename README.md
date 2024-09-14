@@ -8,14 +8,23 @@ Bu proje, Kaggle'dan Online Payments Fraud Detection Dataset'ini kullanarak hem 
  Bu proje, Online Payments Fraud Detection Dataset adlı veri setini kullanmaktadır. Veri seti, çevrimiçi ödeme dolandırıcılığını tespit etmek amacıyla büyük bir veri kümesi sunar ve test ile uygulama amaçları için tasarlanmıştır ve 10 sütundan oluşmaktadır.
 
 step: Zaman birimini temsil eder; 1 adım 1 saate eşittir.
+
 type: Çevrimiçi işlemin türü (örneğin, alışveriş, para transferi).
+
 amount: İşlemin tutarı.
+
 nameOrig: İşlemi başlatan müşteri.
+
 oldbalanceOrg: İşlem öncesi müşteri hesabındaki bakiye.
+
 newbalanceOrig: İşlem sonrası müşteri hesabındaki yeni bakiye.
+
 nameDest: İşlemin alıcısı.
+
 oldbalanceDest: Alıcının işlem öncesi bakiyesi.
+
 newbalanceDest: Alıcının işlem sonrası yeni bakiyesi.
+
 isFraud: İşlemin dolandırıcılık olup olmadığını belirten etiket (1 = dolandırıcılık, 0 = dolandırıcılık değil).
 
 
