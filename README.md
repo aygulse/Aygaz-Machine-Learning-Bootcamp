@@ -24,6 +24,7 @@ isFraud: İşlemin dolandırıcılık olup olmadığını belirten etiket (1 = d
 Bu projede iki farklı makine öğrenimi algoritması kullanılmıştır:
 
 Lojistik Regresyon (Gözetimli Öğrenme)
+
 K-Means Kümeleme (Gözetimsiz Öğrenme)
 
 # 1. Lojistik Regresyon (Gözetimli Öğrenme)
