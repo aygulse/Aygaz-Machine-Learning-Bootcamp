@@ -72,4 +72,4 @@ Lojistik Regresyon: Verilerin etiketli olduğu ve sınıflandırma probleminin �
 K-Means Kümeleme: Etiketli verinin mevcut olmadığı ve veri kümesinin doğal gruplara ayrılması gerektiği durumlarda daha uygundur.
 
 # Kaggle Notebook Linki
-Proje ile ilgili detaylı çalışmaya Kaggle Notebook bağlantısı üzerinden ulaşabilirsiniz.
+Proje ile ilgili detaylı çalışmaya https://www.kaggle.com/code/aygulse/aygaz-machine-learning-bootcamp/edit  üzerinden ulaşabilirsiniz.
