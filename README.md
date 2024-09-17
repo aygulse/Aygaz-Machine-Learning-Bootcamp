@@ -53,8 +53,11 @@ Sınıflandırma Raporu:
 
            0       1.00      1.00      1.00   1270904
            1       0.92      0.38      0.54      1620
+           
     accuracy                           1.00   1272524
+    
    macro avg       0.96      0.69      0.77   1272524
+   
 weighted avg       1.00      1.00      1.00   1272524
 
 
@@ -77,7 +80,9 @@ Küme Merkezleri:
  [ 0.58931655 -0.07467598 -0.07223552  2.57634258  2.48748354]]
 
 
+
 ![image](https://github.com/user-attachments/assets/a949d65a-ee37-4e4c-8e88-ed93d9a871aa)
+
 
 
 
