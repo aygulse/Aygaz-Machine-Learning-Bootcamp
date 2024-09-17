@@ -47,7 +47,14 @@ Karışıklık Matrisi:
  
  [   1001     619]]
  
-Sınıflandırma Raporu:
+Sınıflandırma Raporu:| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 1.00      | 1.00   | 1.00     | 1,270,904 |
+| 1     | 0.92      | 0.38   | 0.54     | 1,620   |
+| **Accuracy** |   |        | 1.00     | 1,272,524 |
+| **Macro Avg** | 0.96 | 0.69   | 0.77     | 1,272,524 |
+| **Weighted Avg** | 1.00 | 1.00   | 1.00     | 1,272,524 |
+
 
                precision    recall  f1-score   support
 
