@@ -5,7 +5,7 @@ Bu proje, Kaggle'dan Online Payments Fraud Detection Dataset'ini kullanarak hem 
 
 # Veri Seti
 
- Bu proje, Online Payments Fraud Detection Dataset adlı veri setini kullanmaktadır. Veri seti, çevrimiçi ödeme dolandırıcılığını tespit etmek amacıyla büyük bir veri kümesi sunar ve test ile uygulama amaçları için tasarlanmıştır ve 10 sütundan oluşmaktadır.
+ Bu proje, Online Payments Fraud Detection Dataset adlı veri setini kullanmaktadır. Veri seti, çevrimiçi ödeme dolandırıcılığını tespit etmek amacıyla büyük bir veri kümesi sunar ve test ile uygulama amaçları için tasarlanmıştır ve aşağıdaki sütunlardan oluşmaktadır.
 
 step: Zaman birimini temsil eder; 1 adım 1 saate eşittir.
 
