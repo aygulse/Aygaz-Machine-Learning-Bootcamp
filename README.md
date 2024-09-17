@@ -41,19 +41,32 @@ Lojistik regresyon, sınıflandırma problemlerini çözmek için kullanılan bi
 
 Sonuçlar:
 
-Doğruluk: [Doğruluk Skoru]
+Lojistik Regresyon Doğruluk Skoru: 0.999170153175893
+Karışıklık Matrisi:
+ [[1270849      55]
+ [   1001     619]]
+Sınıflandırma Raporu:
+               precision    recall  f1-score   support
 
-Karışıklık Matrisi: (Aşağıda görselleştirilmiştir)
+           0       1.00      1.00      1.00   1270904
+           1       0.92      0.38      0.54      1620
 
-Sınıflandırma Raporu: [Sınıflandırma raporu burada yer alacak]
+    accuracy                           1.00   1272524
+   macro avg       0.96      0.69      0.77   1272524
+weighted avg       1.00      1.00      1.00   1272524
 
 
 # 2. K-Means Kümeleme (Gözetimsiz Öğrenme)
 K-Means, verileri kümelere ayıran bir gözetimsiz öğrenme algoritmasıdır. Bu algoritma, x_train veri seti kullanılarak eğitilmiştir ve test verisi üzerinde kümeleri tahmin etmek için kullanılmıştır.
 
 Sonuçlar:
+Küme Merkezleri:
+ [[18.78479102 -0.0374662  -0.24394651  3.83505486  7.60135743]
+ [-0.0319747   3.80411004  3.80496697  0.15026511  0.06624262]
+ [ 3.84485879  0.16567777  0.16960071 27.40540253 26.14982309]
+ [-0.05853534 -0.19433222 -0.19420824 -0.15665436 -0.15293734]
+ [ 0.58931655 -0.07467598 -0.07223552  2.57634258  2.48748354]]
 
-Küme Merkezleri: [Küme merkezlerinin koordinatları]
 
 Görselleştirme: (Aşağıda görselleştirilmiştir)
 
