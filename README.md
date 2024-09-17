@@ -44,7 +44,9 @@ Sonuçlar:
 Lojistik Regresyon Doğruluk Skoru: 0.999170153175893
 
 Karışıklık Matrisi:
+
  [[1270849      55]
+ 
  [   1001     619]]
  
 Sınıflandırma Raporu:
@@ -53,7 +55,6 @@ Sınıflandırma Raporu:
 
            0       1.00      1.00      1.00   1270904
            1       0.92      0.38      0.54      1620
-
     accuracy                           1.00   1272524
    macro avg       0.96      0.69      0.77   1272524
 weighted avg       1.00      1.00      1.00   1272524
