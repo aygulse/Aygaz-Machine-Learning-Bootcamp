@@ -41,48 +41,39 @@ Lojistik regresyon, sınıflandırma problemlerini çözmek için kullanılan bi
 
 Lojistik Regresyon Doğruluk Skoru: 0.999170153175893
 
-Karışıklık Matrisi:
+Karışıklık Matrisi: 
 
- [[1270849      55]
+|          | Predicted 0 | Predicted 1 |
+|----------|-------------|-------------|
+| Actual 0 | 1,270,849   | 55          |
+| Actual 1 | 1,001       | 619         |
+
  
- [   1001     619]]
- 
-Sınıflandırma Raporu:| Class | Precision | Recall | F1-Score | Support |
-|-------|-----------|--------|----------|---------|
-| 0     | 1.00      | 1.00   | 1.00     | 1,270,904 |
-| 1     | 0.92      | 0.38   | 0.54     | 1,620   |
-| **Accuracy** |   |        | 1.00     | 1,272,524 |
-| **Macro Avg** | 0.96 | 0.69   | 0.77     | 1,272,524 |
-| **Weighted Avg** | 1.00 | 1.00   | 1.00     | 1,272,524 |
+Sınıflandırma Raporu:
 
-
-               precision    recall  f1-score   support
-
-           0       1.00      1.00      1.00   1270904
-           1       0.92      0.38      0.54      1620
-           
-    accuracy                           1.00   1272524
-    
-   macro avg                     0.96       0.69       0.77    1272524
-   
-weighted avg                   1.00       1.00       1.00    1272524
+| Class        | Precision | Recall | F1-Score | Support   |
+|--------------|-----------|--------|----------|-----------|
+| 0            | 1.00      | 1.00   | 1.00     | 1,270,904 |
+| 1            | 0.92      | 0.38   | 0.54     | 1,620     |
+| **Accuracy** |           |        | 1.00     | 1,272,524 |
+| **Macro Avg**| 0.96      | 0.69   | 0.77     | 1,272,524 |
+| **Weighted Avg** | 1.00  | 1.00   | 1.00     | 1,272,524 |
 
 
 # 2. K-Means Kümeleme (Gözetimsiz Öğrenme)
 
 K-Means, verileri kümelere ayıran bir gözetimsiz öğrenme algoritmasıdır. Bu algoritma, x_train veri seti kullanılarak eğitilmiştir ve test verisi üzerinde kümeleri tahmin etmek için kullanılmıştır.
 
-Küme Merkezleri:
+Küme Merkezleri: 
 
- [[18.78479102 -0.0374662  -0.24394651  3.83505486  7.60135743]
- 
- [-0.0319747   3.80411004  3.80496697  0.15026511  0.06624262]
- 
- [ 3.84485879  0.16567777  0.16960071 27.40540253 26.14982309]
- 
- [-0.05853534 -0.19433222 -0.19420824 -0.15665436 -0.15293734]
- 
- [ 0.58931655 -0.07467598 -0.07223552  2.57634258  2.48748354]]
+| Cluster | Feature 1 | Feature 2 | Feature 3 | Feature 4 | Feature 5 |
+|---------|-----------|-----------|-----------|-----------|-----------|
+| 1       | 18.78     | -0.04     | -0.24     | 3.84      | 7.60      |
+| 2       | -0.03     | 3.80      | 3.80      | 0.15      | 0.07      |
+| 3       | 3.84      | 0.17      | 0.17      | 27.41     | 26.15     |
+| 4       | -0.06     | -0.19     | -0.19     | -0.16     | -0.15     |
+| 5       | 0.59      | -0.08     | -0.07     | 2.58      | 2.49      |
+
 
 
 
