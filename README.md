@@ -48,6 +48,7 @@ Karışıklık Matrisi:
  [   1001     619]]
  
 Sınıflandırma Raporu:
+
                precision    recall  f1-score   support
 
            0       1.00      1.00      1.00   1270904
@@ -59,11 +60,13 @@ weighted avg       1.00      1.00      1.00   1272524
 
 
 # 2. K-Means Kümeleme (Gözetimsiz Öğrenme)
+
 K-Means, verileri kümelere ayıran bir gözetimsiz öğrenme algoritmasıdır. Bu algoritma, x_train veri seti kullanılarak eğitilmiştir ve test verisi üzerinde kümeleri tahmin etmek için kullanılmıştır.
 
 Sonuçlar:
 
 Küme Merkezleri:
+
  [[18.78479102 -0.0374662  -0.24394651  3.83505486  7.60135743]
  [-0.0319747   3.80411004  3.80496697  0.15026511  0.06624262]
  [ 3.84485879  0.16567777  0.16960071 27.40540253 26.14982309]
