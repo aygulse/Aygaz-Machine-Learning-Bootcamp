@@ -65,8 +65,6 @@ weighted avg                   1.00       1.00       1.00    1272524
 
 K-Means, verileri kümelere ayıran bir gözetimsiz öğrenme algoritmasıdır. Bu algoritma, x_train veri seti kullanılarak eğitilmiştir ve test verisi üzerinde kümeleri tahmin etmek için kullanılmıştır.
 
-Sonuçlar:
-
 Küme Merkezleri:
 
  [[18.78479102 -0.0374662  -0.24394651  3.83505486  7.60135743]
@@ -94,11 +92,6 @@ Lojistik Regresyon:  Logistic Regression modeli dolandırıcılık tespitinde da
 
 K-Means Kümeleme: K-Means Clustering ise veriyi kümelere ayırmada etkili olmuştur ancak sınıflandırma görevinde doğrudan kullanılmamıştır.
 
-# Algoritma Seçimi:
-
-Lojistik Regresyon: Verilerin etiketli olduğu ve sınıflandırma probleminin ön planda olduğu durumlarda uygundur.
-
-K-Means Kümeleme: Etiketli verinin mevcut olmadığı ve veri kümesinin doğal gruplara ayrılması gerektiği durumlarda daha uygundur.
 
 # Kaggle Notebook Linki
 Proje ile ilgili detaylı çalışmaya https://www.kaggle.com/code/aygulse/aygaz-makine-renmesi-bootcamp-proje-kamp  üzerinden ulaşabilirsiniz.
