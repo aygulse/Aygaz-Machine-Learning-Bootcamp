@@ -39,7 +39,8 @@ K-Means Kümeleme (Gözetimsiz Öğrenme)
 # 1. Lojistik Regresyon (Gözetimli Öğrenme)
 Lojistik regresyon, sınıflandırma problemlerini çözmek için kullanılan bir gözetimli öğrenme algoritmasıdır. Modelin eğitimi, x_train ve y_train veri setleri kullanılarak gerçekleştirilmiştir. Test aşamasında, modelin doğruluğu ve karışıklık matrisi gibi performans metrikleri hesaplanmıştır.
 
-Sonuçlar:
+Sonuçlar:![image](https://github.com/user-attachments/assets/a5fc7d23-6b6a-402a-91fe-101e0f6a14d5)
+
 
 Lojistik Regresyon Doğruluk Skoru: 0.999170153175893
 
@@ -80,7 +81,7 @@ Küme Merkezleri:
  [ 0.58931655 -0.07467598 -0.07223552  2.57634258  2.48748354]]
 
 
-Görselleştirme: ![image](https://github.com/user-attachments/assets/a949d65a-ee37-4e4c-8e88-ed93d9a871aa)
+![image](https://github.com/user-attachments/assets/a949d65a-ee37-4e4c-8e88-ed93d9a871aa)
 
 
 
