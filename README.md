@@ -1,7 +1,7 @@
 # Aygaz-Machine-Learning-Bootcamp
 
 # Aygaz Makine Öğrenmesi Bootcamp: Yeni Nesil Proje Kampı 
-Bu proje, Kaggle'dan Online Payments Fraud Detection Dataset'ini kullanarak hem gözetimli öğrenme (supervised learning) hem de gözetimsiz öğrenme (unsupervised learning) algoritmalarını uygulamaktadır. Bu dosyada, her iki öğrenme türünün performans değerlendirmeleri ve neden belirli bir algoritmanın diğerine göre daha uygun olduğunu açıklayan bilgiler bulunmaktadır.
+Bu proje, Kaggle'dan alınan Online Payments Fraud Detection Dataset'ini kullanarak hem gözetimli öğrenme (supervised learning) hem de gözetimsiz öğrenme (unsupervised learning) algoritmalarını uygulamaktadır. Bu dosyada, her iki öğrenme türünün performans değerlendirmeleri ve neden belirli bir algoritmanın diğerine göre daha uygun olduğunu açıklayan bilgiler bulunmaktadır.
 
 # Veri Seti
 
@@ -90,9 +90,9 @@ Küme Merkezleri:
 
 Her iki algoritmanın performansı değerlendirildiğinde:
 
-Lojistik Regresyon: [Yüksek doğruluk ve iyi performans gibi sonuçlar burada belirtilebilir]
+Lojistik Regresyon:  Logistic Regression modeli dolandırıcılık tespitinde daha başarılı olmuştur. Bunun nedeni, etiketli verilerle çalışılması ve dolandırıcılık gibi ikili sınıflandırma problemleri için Logistic Regression'ın daha uygun bir model olmasıdır.
 
-K-Means Kümeleme: [Kümeleme sonuçlarının ne kadar etkili olduğu burada açıklanabilir]
+K-Means Kümeleme: K-Means Clustering ise veriyi kümelere ayırmada etkili olmuştur ancak sınıflandırma görevinde doğrudan kullanılmamıştır.
 
 # Algoritma Seçimi:
 
@@ -101,4 +101,4 @@ Lojistik Regresyon: Verilerin etiketli olduğu ve sınıflandırma probleminin �
 K-Means Kümeleme: Etiketli verinin mevcut olmadığı ve veri kümesinin doğal gruplara ayrılması gerektiği durumlarda daha uygundur.
 
 # Kaggle Notebook Linki
-Proje ile ilgili detaylı çalışmaya https://www.kaggle.com/code/aygulse/aygaz-machine-learning-bootcamp/edit  üzerinden ulaşabilirsiniz.
+Proje ile ilgili detaylı çalışmaya https://www.kaggle.com/code/aygulse/aygaz-makine-renmesi-bootcamp-proje-kamp  üzerinden ulaşabilirsiniz.
