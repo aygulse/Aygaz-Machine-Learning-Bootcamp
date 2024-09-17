@@ -5,7 +5,7 @@ Bu proje, Kaggle'dan Online Payments Fraud Detection Dataset'ini kullanarak hem 
 
 # Veri Seti
 
- Bu proje, Online Payments Fraud Detection Dataset adlı veri setini kullanmaktadır. Veri seti, çevrimiçi ödeme dolandırıcılığını tespit etmek amacıyla büyük bir veri kümesi sunar ve test ile uygulama amaçları için tasarlanmıştır ve aşağıdaki sütunlardan oluşmaktadır.
+ Bu proje, Online Payments Fraud Detection Dataset adlı veri setini kullanmaktadır. Veri seti, çevrimiçi ödeme dolandırıcılığını tespit etmek amacıyla büyük bir veri kümesi sunar , test ile uygulama amaçları için tasarlanmıştır ve aşağıdaki sütunlardan oluşmaktadır.
 
 step: Zaman birimini temsil eder; 1 adım 1 saate eşittir.
 
@@ -55,6 +55,7 @@ Sınıflandırma Raporu:
 
            0       1.00      1.00      1.00   1270904
            1       0.92      0.38      0.54      1620
+           
     accuracy                           1.00   1272524
    macro avg       0.96      0.69      0.77   1272524
 weighted avg       1.00      1.00      1.00   1272524
@@ -79,7 +80,9 @@ Küme Merkezleri:
  [ 0.58931655 -0.07467598 -0.07223552  2.57634258  2.48748354]]
 
 
-Görselleştirme: (Aşağıda görselleştirilmiştir)
+Görselleştirme: ![image](https://github.com/user-attachments/assets/a949d65a-ee37-4e4c-8e88-ed93d9a871aa)
+
+
 
 # Performans Karşılaştırması
 
