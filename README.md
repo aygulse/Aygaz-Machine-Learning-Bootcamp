@@ -56,9 +56,11 @@ Sınıflandırma Raporu:
            
     accuracy                           1.00   1272524
     
-   macro avg        0.96       0.69       0.77    1272524
+   macro avg                                                                           
+                    0.96       0.69       0.77    1272524
    
-weighted avg        1.00       1.00       1.00    1272524
+weighted avg       
+                   1.00       1.00       1.00    1272524
 
 
 # 2. K-Means Kümeleme (Gözetimsiz Öğrenme)
